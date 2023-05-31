@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fetch Doggie</title>
+
+     <!-- Linking Bootstrap CSS -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+     <!-- Linking Bootswatch Minty theme -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/minty/bootstrap.min.css" >
+
+    <!-- Linking jQuery -->
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    
+    <!-- Linking CSS -->
+        <link rel="stylesheet" href="fetchdoggie.css">
+
+    <!-- Linking js -->
+        <script src="fetchdoggie.js" defer></script>
+    
+    <!-- Testing jQuery -->
+    <!-- <script>
+        window.onload = function() {
+            if (window.jQuery) {  
+                alert("jQuery working");
+            } else {
+                alert("jQuery is not working");
+            }
+        }
+    </script> -->
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Fetch Doggie</a>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+
+          <form class="d-flex mx-auto">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+
+          <div class="navbar-links">
+            <ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Breeds</a>
+                    <div class="dropdown-menu" data-bs-popper="static">
+                      <a class="dropdown-item" href="#">Daschund</a>
+                      <a class="dropdown-item" href="#">Chihuahua</a>
+                      <a class="dropdown-item" href="#">Corgi</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">See All</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="https://github.com/yunapahk/fetchdoggie/">Github</a>
+              </li>
+      </nav>
+
+      <div class="card mb-3" style="max-width: 700px; margin: 50px auto 0;">
+        <h3 class="card-header">Card header</h3>
+        <div class="card-body">
+          <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="auto" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+        </svg>
+        <div class="card-body">
+          <!-- Card content goes here -->
+        </div>
+      </div>
     
+        
+        <!-- Linking Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
+</html
