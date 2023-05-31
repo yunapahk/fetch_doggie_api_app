@@ -1,5 +1,5 @@
 # Fetch Doggie
-A website where you can view pictures of different kinds of doggies
+A website that fetches any dog breed providing an image and origin.
 
 # Technologies Used
 * HTML
@@ -7,7 +7,7 @@ A website where you can view pictures of different kinds of doggies
 * JavaScript
 * jQuery
 * Bootsrap/Bootwatch
-
+* Ajax
 
 
 # Planning
@@ -15,6 +15,8 @@ A website where you can view pictures of different kinds of doggies
 | -------------- | -------------- |
 | 1   | Comlete CSS  | 
 | 2   | Connect API via RapidAPI   | 
+| 3   | Update README.md   | 
+| 4   | Make url public via    | 
 
 
 # Getting Started
