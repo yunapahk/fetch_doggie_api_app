@@ -16,7 +16,7 @@ A website that fetches any dog breed providing an image and origin.
 | 1   | Comlete CSS  | 
 | 2   | Connect API via RapidAPI   | 
 | 3   | Update README.md   | 
-| 4   | Make url public via    | 
+| 4   | Make url public via Render  | 
 
 
 # Getting Started
