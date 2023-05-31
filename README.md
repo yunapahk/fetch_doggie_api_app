@@ -1,5 +1,5 @@
-# Pawnography
-A website where chess players can practice puzzles.
+# Fetch Doggie
+A website where you can view pictures of different kinds of doggies
 
 # Technologies Used
 * HTML
@@ -7,7 +7,7 @@ A website where chess players can practice puzzles.
 * JavaScript
 * jQuery
 * Bootsrap/Bootwatch
-* chessboard.js
+
 
 
 # Planning
@@ -27,6 +27,4 @@ A website where chess players can practice puzzles.
 Click here to see the app!
 
 # Future Enhancements
-TBD
->>>>>>> 0a82c3181f8e200a43bc4f9cd86820de5813f1eb
-# fetchdoggie
+
