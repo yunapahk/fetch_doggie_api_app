@@ -10,7 +10,7 @@ A website that fetches any dog breed providing an image and origin.
 * Ajax
 
 # Wireframe
-![GMP_U2F2ZUdIMDE= GIF-1](https://github.com/yunapahk/yunapahk.github.io/assets/128323294/672267f6-df5d-428b-ae6e-f74f389e15ac)
+![Exported](https://github.com/yunapahk/yunapahk.github.io/assets/128323294/974e9133-85c4-4de5-af66-ff81c1e91e87)
 
 
 # Planning
