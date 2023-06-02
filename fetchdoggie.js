@@ -20,9 +20,6 @@ const settings = {
     }
 };
 
-// $.ajax(settings).done(function (response) {
-// 	console.log(response);
-// });
 
 
 // Search Form
@@ -73,3 +70,19 @@ $searchForm.on("submit", event => {
         });
 });
 
+// Allowing users to search with spaces
+const encodedSpace = encodeURIComponent(' ');
+console.log(encodedSpace);
+
+// $.ajax(settings).done(function (response) {
+// 	console.log(response);
+// });
+
+window.addEventListener('load', function() {
+    var animationElement = document.querySelector('.sausage-dog-animation');
+    var restOfPage = document.querySelector('.rest-of-page');
+    
+    animationElement.addEventListener('animationend', function() {
+      restOfPage.style.display = 'block';
+    });
+  });
