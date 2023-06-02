@@ -7,7 +7,7 @@ A website that fetches any dog breed providing an image and origin.
 * JavaScript
 * jQuery
 * Bootsrap/Bootwatch
-* Ajax
+* RapidAPI
 
 # Wireframe
 ![Exported](https://github.com/yunapahk/yunapahk.github.io/assets/128323294/974e9133-85c4-4de5-af66-ff81c1e91e87)
