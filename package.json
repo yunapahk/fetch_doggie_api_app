@@ -1,0 +1,15 @@
+{
+  "name": "api-project",
+  "version": "1.0.0",
+  "description": "fetchdoggie",
+  "main": "fetchdoggie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunapahk/yunapahk.github.io/blob/main/README.md"
+  },
+  "author": "Yuna Pahk",
+  "license": "ISC"
+}
