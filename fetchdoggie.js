@@ -37,7 +37,7 @@ $searchForm.on("submit", event => {
     console.log(url);
 
     $result.empty();
-    $result.html(`<div>Loading...</div>`);
+    $result.html(`<div>Fetching...</div>`);
 
     $.ajax({
         url: url,
