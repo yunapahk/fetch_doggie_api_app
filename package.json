@@ -4,7 +4,7 @@
   "description": "fetchdoggie",
   "main": "fetchdoggie.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node fetchdoggie.js"
   },
   "repository": {
     "type": "git",
