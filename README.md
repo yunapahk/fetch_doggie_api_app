@@ -9,6 +9,9 @@ A website that fetches any dog breed providing an image and origin.
 * Bootsrap/Bootwatch
 * Ajax
 
+# Wireframe
+![GMP_U2F2ZUdIMDE= GIF-1](https://github.com/yunapahk/yunapahk.github.io/assets/128323294/672267f6-df5d-428b-ae6e-f74f389e15ac)
+
 
 # Planning
 | Day | Task | 
