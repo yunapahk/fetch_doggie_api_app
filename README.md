@@ -9,6 +9,7 @@ A website that fetches any dog breed providing an image and origin.
 * Bootsrap/Bootwatch
 * RapidAPI
 * [CodePen Animation](https://codepen.io/stivaliserna/pen/jObPyKe)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 
 # Wireframe
 ![Exported](https://github.com/yunapahk/yunapahk.github.io/assets/128323294/974e9133-85c4-4de5-af66-ff81c1e91e87)
