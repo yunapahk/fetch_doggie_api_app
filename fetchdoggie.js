@@ -39,20 +39,15 @@ $searchForm.on("submit", event => {
     $result.empty();
     $result.html(`<div>Loading...</div>`);
 
-    fetch(url, 
-        
-        {headers: {
-
-        'X-RapidAPI-Key': '02f3b69c35msh4a0aadf57595284p121757jsn8b3c7e60e543',
-        'X-RapidAPI-Host': 'dog-breeds2.p.rapidapi.com'
-    },method: "GET",
-})
-        .then(response => {
-            
-            return response.json();
-        })
-        .then(data => {
-            console.log(data)
+    $.ajax({
+        url: url,
+        headers: {
+            'X-RapidAPI-Key': '02f3b69c35msh4a0aadf57595284p121757jsn8b3c7e60e543',
+            'X-RapidAPI-Host': 'dog-breeds2.p.rapidapi.com'
+        },
+        method: "GET",
+        success: data => {
+            console.log(data);
             $result.html(`
                 <div>
                     <b>breed:&nbsp;</b> <span>${data[0].breed}</span>
@@ -64,25 +59,13 @@ $searchForm.on("submit", event => {
                     <b>origin:&nbsp;</b> <span>${data[0].origin}</span>
                 </div>
             `);
-        })
-        .catch(() => {
+        },
+        error: () => {
             $result.html(`<div>There was an error...</div>`);
-        });
+        }
+    });
 });
 
 // Allowing users to search with spaces
 const encodedSpace = encodeURIComponent(' ');
 console.log(encodedSpace);
-
-// $.ajax(settings).done(function (response) {
-// 	console.log(response);
-// });
-
-window.addEventListener('load', function() {
-    var animationElement = document.querySelector('.sausage-dog-animation');
-    var restOfPage = document.querySelector('.rest-of-page');
-    
-    animationElement.addEventListener('animationend', function() {
-      restOfPage.style.display = 'block';
-    });
-  });
