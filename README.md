@@ -2,8 +2,6 @@
 A website that fetches any dog breed providing an image and origin.
 ![Attachment-1](https://github.com/yunapahk/yunapahk.github.io/assets/128323294/ada19785-b89f-4bbf-888d-6582420e9cda)
 
-
-
 # Technologies Used
 * HTML
 * CSS
@@ -29,7 +27,7 @@ A website that fetches any dog breed providing an image and origin.
 ![Exported](https://github.com/yunapahk/yunapahk.github.io/assets/128323294/974e9133-85c4-4de5-af66-ff81c1e91e87)
 
 
-# Planning
+# Planning/Approach
 | Day | Task | 
 | -------------- | -------------- |
 | 1   | Connect API via ajax  | 
@@ -42,4 +40,8 @@ A website that fetches any dog breed providing an image and origin.
 # Getting Started
 Click here to see the [app!](https://fetchdoggie1.onrender.com)
 
+# Unsolved problems
+Page becomes unresponsive when adding animation
+![export_0 GIF](https://github.com/yunapahk/yunapahk.github.io/assets/128323294/204de0ea-0515-4d53-badb-6c275bfdaa6b)
+ 
 
