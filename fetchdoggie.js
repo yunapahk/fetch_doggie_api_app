@@ -32,7 +32,7 @@ $searchForm.on("submit", event => {
     const formData = new FormData(event.target);
     const breeds = formData.get("breeds").toLowerCase();
 
-    const url = `https://dog-breeds2.p.rapidapi.com/dog_breeds/breed/${breed}`;
+    const url = `https://dog-breeds2.p.rapidapi.com/dog_breeds/breed/${breeds}`;
 
     console.log(url);
 
