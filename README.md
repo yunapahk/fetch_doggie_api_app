@@ -42,6 +42,7 @@ Click here to see the [app!](https://fetchdoggie1.onrender.com)
 
 # Unsolved problems
 Page becomes unresponsive when adding animation
+
 ![export_0 GIF](https://github.com/yunapahk/yunapahk.github.io/assets/128323294/204de0ea-0515-4d53-badb-6c275bfdaa6b)
  
 
